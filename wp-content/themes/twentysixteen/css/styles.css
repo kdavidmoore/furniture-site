@@ -1,0 +1,40 @@
+div {
+	box-sizing: border-box;
+	border: 1px dashed red;
+}
+
+body {
+	background-image: url('http://local-wordpress.com/wp-content/themes/twentysixteen/bricks.jpg');
+}
+
+#page {
+	max-width: 900px
+	margin: auto;
+}
+
+.site-title {
+	font-size: 50px;
+	color: rgb(160,160,160);
+}
+
+.site-branding {
+	min-width: 100%;
+}
+
+.site-description {
+	float: right;
+	position: relative;
+	top: -50px;
+}
+
+.site-header-menu {
+	float: left;
+	margin: 0;
+}
+
+.tel-number {
+	font-size: 20px;
+	color: rgb(160,160,160);
+	float: right;
+	text-align: right;
+}
