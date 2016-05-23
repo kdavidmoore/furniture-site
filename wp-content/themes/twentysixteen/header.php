@@ -41,6 +41,7 @@
 					$description = get_bloginfo( 'description', 'display' );
 					if ( $description || is_customize_preview() ) : ?>
 						<p class="site-description"><?php echo $description; ?></p>
+						<p class="site-description tel">404-555-1234</p>
 					<?php endif; ?>
 				</div><!-- .site-branding -->
 
@@ -74,7 +75,9 @@
 						<?php endif; ?>
 					</div><!-- .site-header-menu -->
 				<?php endif; ?>
+				<p class="contact">contact@customfurnituresite.com</p>
 			</div><!-- .site-header-main -->
+
 
 			<?php if ( get_header_image() ) : ?>
 				<?php
