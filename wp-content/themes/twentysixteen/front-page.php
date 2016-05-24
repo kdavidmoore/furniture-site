@@ -6,4 +6,6 @@
 	</main>
 </div>
 
+<?php stripe_checkout(); ?>
+
 <?php get_footer(); ?>

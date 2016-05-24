@@ -1,2 +1,6 @@
 wp-config.php
-wp-content/plugins/*
+wp-content/plugins/furniture-controller/inc/config.php
+wp-content/plugins/akismet/*
+wp-content/plugins/photo-gallery/*
+wp-content/plugins/pods/*
+wp-content/plugins/slider-image/*
