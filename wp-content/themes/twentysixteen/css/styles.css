@@ -1,5 +1,5 @@
 body {
-	background-image: url('http://local-wordpress.com/wp-content/themes/twentysixteen/bricks.jpg');
+	background-image: url('http://local-wordpress.com/wp-content/uploads/2016/05/bricks.jpg');
 }
 
 #page {
@@ -7,20 +7,26 @@ body {
 	margin: auto;
 }
 
-.site-title {
-	font-size: 50px;
-	color: rgb(160,160,160);
+.site-branding {
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	border-bottom: 2px solid rgb(160,160,160);
 }
 
-.site-branding {
-	min-width: 100%;
-	border-bottom: 1.5px solid rgb(160,160,160);
+.site-title-custom {
+	float: left;
+	width: 70%;
+	font-size: 56px;
+	color: #a0a0b2;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
 }
 
 .site-description {
-	float: right;
-	position: relative;
-	top: -50px;
+	float: left;
+	text-align: right;
+	width: 30%;
 }
 
 .site-header-menu {
@@ -30,21 +36,34 @@ body {
 }
 
 .tel {
+	float: left;
 	font-size: 20px;
 	color: rgb(160,160,160);
-	float: right;
-	clear: both;
+	text-align: right;
 }
 
 .contact {
 	color: rgb(160,160,160);
 	float: right;
-	position: absolute;
-	right: 55px;
 }
 
 .fb-like {
 	float: right;
-	position: relative;
-	top: -20px;
+	clear: both;
+}
+
+#site-navigation {
+	float: left;
+	width: 100%
+}
+
+.primary-menu li {
+	text-transform: uppercase;
+}
+
+
+/* front page */
+
+.content-area {
+	width: 100%;
 }
