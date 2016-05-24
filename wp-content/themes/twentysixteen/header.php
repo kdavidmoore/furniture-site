@@ -23,6 +23,18 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<!-- fb javascript sdk -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+<!-- end fb javascript sdk -->
+
 <div id="page" class="site">
 	<div class="site-inner">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
@@ -77,6 +89,7 @@
 				<?php endif; ?>
 				<p class="contact">contact@customfurnituresite.com</p>
 			</div><!-- .site-header-main -->
+		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
 
 
 			<?php if ( get_header_image() ) : ?>

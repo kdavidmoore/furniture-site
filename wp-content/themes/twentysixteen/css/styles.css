@@ -42,3 +42,9 @@ body {
 	position: absolute;
 	right: 55px;
 }
+
+.fb-like {
+	float: right;
+	position: relative;
+	top: -20px;
+}
