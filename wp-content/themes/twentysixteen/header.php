@@ -33,7 +33,7 @@
 				<div class="site-branding">
 					<?php twentysixteen_the_custom_logo(); ?>
 
-					<h1 class="site-title site-title-custom"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<h1 class="site-title"><a id="site-title-custom" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
 					<?php $description = get_bloginfo( 'description', 'display' );
 					if ( $description || is_customize_preview() ) : ?>

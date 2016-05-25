@@ -14,9 +14,12 @@ body {
 	border-bottom: 2px solid rgb(160,160,160);
 }
 
-.site-title-custom {
+.site-title {
 	float: left;
 	width: 70%;
+}
+
+#site-title-custom {
 	font-size: 56px;
 	color: #a0a0b2;
 	font-family: 'Montserrat', sans-serif;
@@ -66,4 +69,28 @@ body {
 
 .content-area {
 	width: 100%;
+}
+
+.stripe-wrapper {
+	width: 30%;
+}
+
+.stripe-wrapper input {
+	margin-bottom: 10px;
+	min-width: 100px;
+}
+
+
+/* mobile */
+
+@media screen and (max-device-width: 768px) {
+	.site-title-custom {
+		font-size: 24px;
+	}
+	.stripe-wrapper {
+		padding: 10px;
+	}
+	.contact {
+		display: none;
+	}
 }
